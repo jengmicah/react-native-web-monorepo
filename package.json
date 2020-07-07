@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd ./packages/mobile && expo-yarn-workspaces postinstall"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "workspaces": {
+      "nohoist": [
+        "**react-native**",
+        "**react**"
+      ]
+    },
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {}
+}

@@ -1,6 +1,6 @@
-# React Native Web Monorepo
+# A React Native Web Monorepo using Expo
 
-An expo monorepo boilerplate using yarn workspaces for creating React and React Native apps that have potential for 95% code sharing. _This is currently only tested for Windows development environments._
+An [Expo](https://docs.expo.io/) monorepo boilerplate using [yarn workspaces](https://github.com/expo/expo/tree/master/packages/expo-yarn-workspaces) for creating [React](https://reactjs.org/docs/getting-started.html) and [React Native](https://reactnative.dev/docs/getting-started) apps that have potential for 95% code sharing. _This is currently only tested for Windows development environments._
 
 ## Features
 

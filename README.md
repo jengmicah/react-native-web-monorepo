@@ -16,6 +16,6 @@ An expo monorepo boilerplate using yarn workspaces for creating React and React 
 - `cd react-native-web-monorepo`
 - `yarn`
 
+- **Start Live Reload of Shared Components:** `cd ./packages/common && yarn watch`
 - **Start React App:** `cd ./packages/web && yarn start`
 - **Start React Native App:** `cd ./packages/mobile && yarn start`
-- **Start Live Reload of Shared Components:** `cd ./packages/common && yarn watch`

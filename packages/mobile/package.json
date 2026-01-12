@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@package/common": "1.0.0",
-    "expo": "~38.0.8",
+    "expo": "~48.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-native": "^0.62.2",
